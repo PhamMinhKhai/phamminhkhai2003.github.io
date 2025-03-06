@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineVerse | Your Movie Destination</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <i class="fas fa-film"></i>
+          <h1>CineVerse</h1>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" class="active"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-list"></i> Categories</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-search"></i> Search</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-content">
+        <h2>Discover Amazing Films</h2>
+        <p>Your gateway to the world of cinema</p>
+        <a href="#featured" class="btn">Explore Movies</a>
+      </div>
+    </div>
+
+    <main>
+      <section id="featured" class="featured-section">
+        <div class="section-header">
+          <h2>Featured Movies</h2>
+          <div class="view-all">
+            <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+
+        <div class="movies">
+          <div class="movie">
+            <div class="movie-poster">
+              <span class="rating"><i class="fas fa-star"></i> 8.7</span>
+              <a href="movie-details.html">
+                <img src="/img/R.jpg" alt="Inception" />
+                <div class="overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </a>
+            </div>
+            <div class="movie-info">
+              <h3>Inception</h3>
+              <div class="meta">
+                <span><i class="fas fa-calendar"></i> 2010</span>
+                <span><i class="fas fa-clock"></i> 148 min</span>
+              </div>
+              <p>
+                A thief who steals corporate secrets through dream-sharing
+                technology is given the inverse task of planting an idea into
+                the mind of a C.E.O.
+              </p>
+              <a href="movie-details.html" class="btn-small">Details</a>
+            </div>
+          </div>
+
+          <div class="movie">
+            <div class="movie-poster">
+              <span class="rating"><i class="fas fa-star"></i> 9.2</span>
+              <a href="movie-details.html">
+                <img src="/img/R (1).jpg" alt="The Shawshank Redemption" />
+                <div class="overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </a>
+            </div>
+            <div class="movie-info">
+              <h3>The Shawshank Redemption</h3>
+              <div class="meta">
+                <span><i class="fas fa-calendar"></i> 1994</span>
+                <span><i class="fas fa-clock"></i> 142 min</span>
+              </div>
+              <p>
+                Two imprisoned men bond over a number of years, finding solace
+                and eventual redemption through acts of common decency.
+              </p>
+              <a href="movie-details.html" class="btn-small">Details</a>
+            </div>
+          </div>
+
+          <div class="movie">
+            <div class="movie-poster">
+              <span class="rating"><i class="fas fa-star"></i> 8.9</span>
+              <a href="movie-details.html">
+                <img src="/img/R (2).jpg" alt="The Dark Knight" />
+                <div class="overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </a>
+            </div>
+            <div class="movie-info">
+              <h3>The Dark Knight</h3>
+              <div class="meta">
+                <span><i class="fas fa-calendar"></i> 2008</span>
+                <span><i class="fas fa-clock"></i> 152 min</span>
+              </div>
+              <p>
+                When the menace known as the Joker wreaks havoc and chaos on the
+                people of Gotham, Batman must accept one of the greatest
+                psychological and physical tests of his ability to fight
+                injustice.
+              </p>
+              <a href="movie-details.html" class="btn-small">Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories-section">
+        <h2>Browse by Genre</h2>
+        <div class="categories">
+          <a href="#" class="category-card">
+            <i class="fas fa-running"></i>
+            <span>Action</span>
+          </a>
+          <a href="#" class="category-card">
+            <i class="fas fa-ghost"></i>
+            <span>Horror</span>
+          </a>
+          <a href="#" class="category-card">
+            <i class="fas fa-heart"></i>
+            <span>Romance</span>
+          </a>
+          <a href="#" class="category-card">
+            <i class="fas fa-theater-masks"></i>
+            <span>Drama</span>
+          </a>
+          <a href="#" class="category-card">
+            <i class="fas fa-robot"></i>
+            <span>Sci-Fi</span>
+          </a>
+          <a href="#" class="category-card">
+            <i class="fas fa-laugh"></i>
+            <span>Comedy</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="newsletter-content">
+          <h2>Stay Updated</h2>
+          <p>
+            Subscribe to our newsletter for the latest movie releases and
+            reviews.
+          </p>
+          <form>
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CineVerse</h3>
+          <p>
+            Your ultimate destination for movie information, reviews, and more.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p><i class="fas fa-envelope"></i> info@cineverse.com</p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CineVerse - All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
